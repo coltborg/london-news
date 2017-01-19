@@ -1,0 +1,144 @@
+/*
+ * Body resets
+ *
+ * Update the foundational and global aspects of the page.
+ */
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #454441;
+  background-color: #fff;
+}
+@media (min-width: 990px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px;
+  font-weight: 600;
+  line-height: 1.25;
+  text-rendering: optimizeLegibility;
+}
+h1 {
+  font-size: 40px;
+}
+h2 {
+  margin-top: 20px;
+  font-size: 32px;
+}
+h3 {
+  margin-top: 24px;
+  font-size: 24px;
+}
+h4, h5, h6 {
+  margin-top: 16px;
+  font-size: 16px;
+}
+
+p {
+  margin: 0 0 15px;
+}
+
+ul, ol {
+  margin-bottom: 15px;
+}
+
+hr {
+  position: relative;
+  margin: 40px 0;
+  border: 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #fff;
+}
+
+strong {
+  color: #222;
+}
+
+abbr {
+  background-color: #eee;
+  display: inline-block;
+  padding: 3px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #555;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+
+code,
+pre {
+  font-family: Menlo, Monaco, "Courier New", monospace;
+}
+code {
+  padding: .25em .5em;
+  font-size: 85%;
+  color: #bf616a;
+  background-color: #f9f9f9;
+  border-radius: 3px;
+}
+pre {
+  display: block;
+  margin: 0 0 14px;
+  padding: 15px 20px;
+  font-size: 16px;
+  line-height: 1.4;
+  white-space: pre;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #f9f9f9;
+}
+pre code {
+  padding: 0;
+  font-size: 100%;
+  color: inherit;
+  background-color: transparent;
+}
+.highlight {
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+.highlight pre {
+  margin-bottom: 0;
+}
+
+/* Quotes */
+blockquote {
+  padding: 5px 30px 5px 25px;
+  margin: 15px 0;
+  border-left: 5px solid #eee;
+}
+blockquote p {
+  margin-bottom: 0;
+  color: #7a7a7a;
+  text-indent: -0.4em;
+}
+blockquote p:before {
+  content: '\201C';
+}
+blockquote p:after {
+  content: '\201D';
+}
+
+img {
+  display: block;
+  margin: 0 0 15px;
+  border-radius: 5px;
+}

@@ -1,0 +1,21 @@
+/* Container
+ *
+ * Align the contents of the site above the proper threshold with some margin-fu
+ * with a 25%-wide `.masthead`.
+ */
+
+.content {
+  padding: 40px 20px;
+}
+
+/* Center container in available real estate */
+@media (min-width: 990px) {
+  .content {
+    padding: 60px 0;
+  }
+  .container {
+    width: 55%;
+    margin-left: 35%;
+    margin-right: 10%;
+  }
+}

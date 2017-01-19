@@ -1,0 +1,60 @@
+/*
+ * Masthead
+ *
+ * Sidebar banner for housing site name and intro.
+ */
+
+/* Sidebar masthead */
+.masthead {
+  background-color: #2a2a2a;
+  color: #fff;
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .masthead {
+    padding: 40px;
+  }
+}
+@media (min-width: 990px) {
+  /* Fix the masthead to the side for impact and awesomeness */
+  .masthead {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 25%;
+    margin-bottom: 0;
+  }
+}
+/* Masthead content */
+.masthead__title {
+  margin-top: 0;
+  font-family: "Libre Baskerville", serif;
+  font-size: 30px;
+}
+@media (min-width: 400px) {
+  .masthead__title {
+    font-size: 40px;
+  }
+}
+@media (min-width: 1200px) {
+  .masthead__title {
+    font-size: 64px;
+  }
+}
+.masthead__link {
+  color: #fff;
+}
+.masthead__link:hover {
+  text-decoration: none;
+}
+.masthead__tagline {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 300;
+}
+@media (min-width: 990px) {
+  .masthead__tagline {
+    font-size: 24px;
+  }
+}

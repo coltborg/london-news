@@ -1,0 +1,60 @@
+/*
+ * Posts
+ *
+ * Each post is wrapped in `.post`. Used on default and post layouts.
+ */
+/* Post index */
+.posts .post {
+  margin-bottom: 20px;
+}
+
+/* Single post */
+.post {
+  margin-bottom: 40px;
+}
+@media (min-width: 990px) {
+  .post {
+    margin-bottom: 60px;
+  }
+}
+
+.post__title {
+  font-size: 30px;
+}
+@media (min-width: 600px) {
+  .post__title {
+    font-size: 40px;
+  }
+}
+
+/* Meta data line below post title */
+.post__date {
+  display: block;
+  margin: -10px 0 10px;
+  color: #9a9a9a;
+}
+
+/* Related posts */
+.related {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  border-top: 1px solid #eee;
+}
+.related__posts {
+  padding-left: 0;
+  list-style: none;
+}
+.related_title {
+  margin-top: 0;
+}
+.related__date {
+  font-size: 75%;
+  color: #999;
+}
+.related__link:hover {
+  color: #000;
+  text-decoration: none;
+}
+.related__link:hover small {
+  color: inherit;
+}
